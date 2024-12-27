@@ -198,14 +198,16 @@
 // }
 
 // Exercise #4
-var currentLightColor = 'Red';
-if (currentLightColor == 'Green') {
-    console.log(`The light is ${currentLightColor}!!!`);
-}
-else if (currentLightColor == 'Red') {
-    console.log(`The light is ${currentLightColor}!!!`);
-    console.log(`You\re about to run the red light, Stop!!!`);
-}
-else {
-    console.log(`Maybe you can make it, but make the right choice`);
-}
+// var currentLightColor = 'Red';
+// if (currentLightColor == 'Green') {
+//     console.log(`The light is ${currentLightColor}!!!`);
+// }
+// else if (currentLightColor == 'Red') {
+//     console.log(`The light is ${currentLightColor}!!!`);
+//     console.log(`You\re about to run the red light, Stop!!!`);
+// }
+// else {
+//     console.log(`Maybe you can make it, but make the right choice`);
+// }
+
+// Errors and Debugging
