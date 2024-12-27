@@ -1,4 +1,4 @@
-* Devslopes - Files Included
+# Devslopes - Files Included
 
-** Exercises and Projects
+## Exercises and Projects
 - Has Exercises included in devslopes-learning directory (local)
