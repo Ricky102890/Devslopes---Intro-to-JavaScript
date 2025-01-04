@@ -211,3 +211,195 @@
 // }
 
 // Errors and Debugging
+// Use of Developer Tools
+// 2 Stages include Parsing Stage and Execution Stage
+
+// Array
+
+// var tvShows = ['The Waling Dead', 'Breaking Bad', 'The Office'];
+
+// console.log(tvShows);
+// Index starts at 0
+// console.log(tvShows[0]);
+// console.log(tvShows[1]);
+// console.log(tvShows[2]);
+// console.log(tvShows[3]);
+// tvShow at Index 3 is undefined because it does not exist
+
+// var userSavedMovies = [];
+// Methods
+//push() - adds a value to the array at the end
+// console.log(userSavedMovies);
+
+// userSavedMovies.push('The Rocketeer');
+// userSavedMovies.push('The Matrix');
+// userSavedMovies.push('Braveheart');
+// console.log(userSavedMovies);
+
+//pop() - removes the last item in the index
+// userSavedMovies.pop();
+// console.log(userSavedMovies);
+ 
+// Length Property
+// console.log(userSavedMovies.length);
+
+
+// Loops
+
+// var tvShows = [
+//     'The Walking Dead',
+//     'Breaking Bad',
+//     'The Office',
+// ];
+
+// var userSavedMovies = [];
+
+// for (var i = 0; i < tvShows.length; i++ ) {
+//     console.log(i)
+//     console.log(tvShows[i]);
+// }
+// 0 < 3 = true; 0 + 1 = 1
+// 1 < 3 = true; 1 + 1 = 2;
+// 2 < 3 = true; 2 + 1 = 3;
+// 3 < 3 = false; loop ends
+// the index starts at 0 but contains 3 list items so the index ends at index 2
+// output to console = 0, 1, 2
+
+// var completedItems = [];
+
+// var todos = [
+//     {
+//         title: 'Item 1', completed: true
+//     },
+//     {
+//         title: 'Item 2', completed: false
+//     },
+//     {
+//         title: 'Item 3', completed: false
+//     },
+//     {
+//         title: 'Item 4', completed: true
+//     },
+// ];
+
+// console.log(todos);
+
+// for (var x = 0; x < todos.length; x++) {
+//     if (todos[x].completed) {
+//         completedItems.push(todos[x]);
+//     }
+// }
+// console.log(completedItems);
+
+// While Loops
+
+// var bottles = 99;
+
+// Amateur Code
+// while (bottles > 0) {
+//     console.log(`${bottles} bottles of stuff on the wall`);
+//     bottles -= 1;
+// }
+
+// Pro Code - 2 methods of executing
+// 1st way 
+// while (bottles > 0) {
+//     if (bottles > 1) {
+//         console.log(`${bottles} bottles of stuff on the wall`);
+//         bottles -= 1;
+//     }
+//     else {
+//         console.log(`${bottles} bottle of stuff on the wall`);
+//         bottles -= 1;
+//     }
+// }
+// 2nd way - more efficient code / cleaner code
+// while (bottles > 0) {
+//     if (bottles > 1) {
+//         console.log(`${bottles} bottles of stuff on the wall`);
+//     }
+//     else {
+//         console.log(`${bottles} bottle of stuff on the wall`);
+//     }
+//     bottles -= 1;
+// }
+
+// Coding Challenge
+
+// const numbers = 100;
+
+// for (let i = 1; i <= 100; i++) {
+//     if ([i] % 3 == 0) {
+//         console.log('Fizz');
+//     }
+// }
+// for (let i = 1; i <= 100; i++) {
+//     if ([i] % 5 == 0) {
+//         console.log('Buzz');
+//     }
+// }
+// for (let i = 1; i <= 100; i++) {
+//     if ([i] % 3 == 0 && [i] % 5) {
+//         console.log('FizzBuzz');
+//     }
+// }
+
+// Functions
+
+// function calcArea(w, l) {
+//     return w * l;
+// }
+
+// var kitchenArea = 15 * 18;
+// var bedroomArea = 12 * 10;
+// var kitchenArea = calcArea(15, 18);
+// var bedroomArea = calcArea(12, 10);
+
+// console.log(kitchenArea);
+// console.log(bedroomArea);
+
+// function toCelsius(f) {
+//     var temp = (5/9) * (f -32);
+    // return Math.round(temp);
+//     return temp.toFixed(2);
+// }
+
+// function toFahrenheit(c) {
+//     var temp = 
+//     return temp.toFixed(2);
+// }
+
+// var toFahrenheit = toFahrenheit();
+// console.log(toFahrenheit);
+
+// var toCelsius = toCelsius(46);
+// console.log(toCelsius);
+
+// var weather = `The temperature outside is ${toCelsius} degrees celsius`;
+// var weather = `The temperature outside is ${toFahrenheit} degrees fahrenheit`;
+
+// console.log(weather);
+
+var warrior = {
+    name: 'Tuffy',
+    attack: 70,
+    defense: 55,
+    mana: 100,
+}
+// warrior.attack = warrior.attack + 2;
+// warrior.attack += 2;
+// warrior.defense += 6;
+// warrior.mana -= 12;
+
+// console.log(warrior);
+
+// function levelUp(prop, val) {
+    // cannot use dot notation to access data inside object
+//     warrior[prop] += val;
+// }
+
+// levelUp('attack', 2);
+// levelUp('defense', 6);
+// levelUp('mana', 17);
+
+// console.log(warrior);
